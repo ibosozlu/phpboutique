@@ -85,7 +85,7 @@ require __DIR__ . '/../layout/top.php';
                 foreach ($statuts as $statut) :
                 $selected = ($statut == $commande['statut'])
                     ? 'selected'
-                    : ''
+                    : ''         
                ;
               ?>
                 <option value="<?= $statut; ?>" <?= $selected; ?>><?= $statut; ?></option>
@@ -98,7 +98,7 @@ require __DIR__ . '/../layout/top.php';
             </form>
         </td>
         <td><?= datetimeFR($commande['date_statut']); ?></td>
-       
+     
     </tr>
     
     <?php
