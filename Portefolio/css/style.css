@@ -1,0 +1,164 @@
+        body{
+        
+            min-width: 100%;
+        }
+
+        .container span{
+            color : white;
+        }
+        .test{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .custom_nav {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .container_nom{
+        /* background-image: url("https://images.wallpaperscraft.com/image/background_dark_blurred_87441_1920x1080.jpg"); */
+            background-image: url("https://images.wallpaperscraft.com/image/brushes_paint_artistic_123618_1920x1080.jpg");
+            min-height: 1000px;
+            display: flex;
+            align-items : center;
+            justify-content: center;  
+            background-attachment: fixed; 
+        }
+
+    
+
+        .top{
+            position: fixed;
+            height: 5%;
+            width: 3em;
+            top: 80%;
+            right:10%;
+        }
+        .top{
+            font-size: 32px;
+        }
+
+        .ico{   
+            width: 32px;
+            height: 32px;
+
+        }
+
+        .ico img{ 
+            width: 100%;
+        }
+
+
+        #footer{
+            border: 10px solid;
+            margin: 30px 30% 30px 30%;
+            text-align: center;
+            
+        }
+        #menu, #projet{
+            margin : 20px 10% 10% 20px;
+        }
+
+        /* .hover1 a:hover ,.hover2 a:hover ,.hover3 a:hover ,.hover4 a:hover  {
+            opacity : 0.5;
+        } */
+        .project a:hover  {
+            opacity : 0.5;
+        }
+
+        /* Formulaire */
+
+        form fieldset {
+            border:1px solid #CCC;
+            border-radius:10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            width: 500px;
+            margin: 40px auto;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin: 5px 0;
+        }
+
+
+        
+        
+        .container{
+            max-width: 1920px;
+            
+            
+            padding: 0 0 0 0;
+            margin : 0 0 0 0;
+        }
+
+        #sectiona{
+        
+            padding: 0 0 0 0;
+            margin : 0 0 0 0;
+            min-height: 200px;
+            background-color: whitesmoke;
+
+        }
+
+        #sectionb{
+            
+            padding: 0 0 0 0;
+            margin : 0 0 0 0;
+            background-color: rgba(245, 245, 245, 0.753);
+
+        
+        
+            
+
+        }
+        #sectionc{
+         
+            padding: 0 0 0 0;
+            margin : 0 0 0 0;
+            min-height: 200px;
+            background-color: rgba(245, 245, 245, 0.753);
+
+        }
+        #sectiond{
+           
+            padding: 0 0 0 0;
+            margin : 0 0 0 0;
+            min-height: 200px;
+            background-color: rgba(245, 245, 245, 0.753);
+
+        }
+
+        #myBar0, #myBar1, #myBar2, #myBar3 {
+            width: 10%;
+            height: 70px;
+            background-color: #4CAF50;
+            text-align: center; /* To center it horizontally (if you want) */
+            line-height: 30px; /* To center it vertically */
+            color: white; 
+        }
+
+
+        #myProgress {
+            width: 100%;
+            background-color: whitesmoke;
+        }
+
+        .card-group{
+            margin: 0px;
+            padding: 0px;
+            width:100%;
+        
+            
+        }
+        .imgzoom {
+         
+           
+            transition: transform .2s; /* Animation */
+           
+          
+        }
+        
+        .imgzoom:hover{
+            transform: scale(1.2);
+
+        }
