@@ -3,8 +3,14 @@
             min-width: 100%;
         }
 
-        .container span{
+        .container h1{
             color : white;
+            transition: transform .2s;
+            font-size: 3.5xsem;
+        
+        }
+        .container h1:hover{
+            transform: scale(1.4);
         }
         .test{
             display: flex;
@@ -14,6 +20,16 @@
         .custom_nav {
             background: rgba(255, 255, 255, 0.3);
         }
+       
+        #navbarTogglerDemo03{
+            font-size : 25px;
+           
+        }
+
+        #navbarTogglerDemo03 a{
+            color: black;
+        }
+
 
         .container_nom{
         /* background-image: url("https://images.wallpaperscraft.com/image/background_dark_blurred_87441_1920x1080.jpg"); */
@@ -131,7 +147,8 @@
         #myBar0, #myBar1, #myBar2, #myBar3 {
             width: 10%;
             height: 70px;
-            background-color: #4CAF50;
+            border: 1px solid;
+            background-color: blueviolet;
             text-align: center; /* To center it horizontally (if you want) */
             line-height: 30px; /* To center it vertically */
             color: white; 
@@ -140,13 +157,13 @@
 
         #myProgress {
             width: 100%;
-            background-color: whitesmoke;
+            background-color: white;
         }
 
         .card-group{
             margin: 0px;
             padding: 0px;
-            width:100%;
+            
         
             
         }

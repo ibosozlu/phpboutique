@@ -12,6 +12,12 @@
         });
         // Progress bar CSS HTML
 
+
+ 
+
+
+
+
         function move0(niveau) {
             var elem = document.getElementById("myBar0"); 
             var width = 10;
@@ -74,10 +80,21 @@
         }
 
 
-        move0(100);
-        move1(75);
-        move2(50);
-        move3(25);
+        xyz = 1
+        
+        $( window ).scroll(function() {
+            var yza = window.scrollY;
+            console.log(yza);
+
+            if (yza > 1600 && xyz == 1){
+                $( "#myProgress" ).append(move0(100));
+                $( "#myProgress" ).append(move1(75));
+                $( "#myProgress" ).append(move2(30));
+                $( "#myProgress" ).append(move3(60));
+                xyz = 0;
+          }
+    })
+       
 
 
 
@@ -122,8 +139,12 @@
     function update() {
      
         step += 0.15;
-        if (step >= 6)
-            step -= 6;
+        if (step >= 5)
+            step -= 5;
     }
 
+
+
+
+   
 
